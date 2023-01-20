@@ -8,4 +8,6 @@ jobs:
     
     steps:
      - uses: actions/checkout@v3
+     
+     - name: Run a single github action
        run: echo "This action works successfully!"
