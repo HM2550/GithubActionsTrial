@@ -1,7 +1,9 @@
 name: First Workflow
+
 on: push
-job:
-  bulid:
+
+jobs:
+  build:
     run-ons: ubuntu-latest
     
     steps:
