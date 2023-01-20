@@ -1,0 +1,9 @@
+name: First Workflow
+on: push
+job:
+  bulid:
+    run-ons: ubuntu-latest
+    
+    steps:
+     - uses: actions/checkout@v3
+       run: echo "This action works successfully!"
